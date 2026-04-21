@@ -40,11 +40,11 @@ That makes it easier to see whether the signal looks structured. The waveform cl
 
 ### Spectrogram
 
-![spectrogram](assets/spectrogram.png)
+![spectrogram](https://github.com/imangion/K-nd4SUS-CTF-2026-writeup/blob/main/spectrogram.png)
 
 ### Zoomed spectrogram
 
-![spectrogram zoom](assets/spec_zoom.png)
+![spectrogram zoom](https://github.com/imangion/K-nd4SUS-CTF-2026-writeup/blob/main/spec_zoom.png)
 
 At this point the radio clues strongly suggested **SSTV**.
 
@@ -61,11 +61,11 @@ That confirms the intended path immediately.
 
 The recovered frame looked like this:
 
-![decoded image 1](assets/decoded_robot_guess1.png)
+![decoded image 1](https://github.com/imangion/K-nd4SUS-CTF-2026-writeup/blob/main/decoded_robot_guess1.png)
 
 A second decode variant gave a very similar result:
 
-![decoded image 2](assets/decoded_robot_guess2.png)
+![decoded image 2](https://github.com/imangion/K-nd4SUS-CTF-2026-writeup/blob/main/decoded_robot_guess2.png)
 
 ---
 
@@ -80,11 +80,11 @@ python3 scripts/enhance_flag_text.py assets/flag_crop_generated.png assets/flag_
 
 ### Bottom crop
 
-![flag crop](assets/flag_crop.png)
+![flag crop](https://github.com/imangion/K-nd4SUS-CTF-2026-writeup/blob/main/flag_crop.png)
 
 ### Enhanced text zoom
 
-![flag zoom](assets/flag_text_zoom.png)
+![flag zoom](https://github.com/imangion/K-nd4SUS-CTF-2026-writeup/blob/main/flag_text_zoom.png)
 
 The reconstructed text is:
 
@@ -107,17 +107,17 @@ This challenge was mainly about recognizing the clues rather than brute force.
 
 ## Files in this repo
 
-- `assets/audit.wav` — original challenge audio
-- `assets/challenge.png` — challenge screenshot
-- `assets/spectrogram.png` — spectrogram view of the WAV
-- `assets/spec_zoom.png` — zoomed spectrogram
-- `assets/decoded_robot_guess1.png` — decoded SSTV image
-- `assets/decoded_robot_guess2.png` — alternate decoded SSTV image
-- `assets/flag_crop.png` — bottom crop containing the flag
-- `assets/flag_text_zoom.png` — enhanced crop for easier reading
-- `scripts/make_spectrogram.py` — builds a spectrogram from WAV input
-- `scripts/crop_flag.py` — crops the bottom text from the decoded image
-- `scripts/enhance_flag_text.py` — sharpens and enlarges the crop
+- audit.wav — original challenge audio
+- challenge.png — challenge screenshot
+- spectrogram.png — spectrogram view of the WAV
+- spec_zoom.png — zoomed spectrogram
+- decoded_robot_guess1.png — decoded SSTV image
+- decoded_robot_guess2.png — alternate decoded SSTV image
+- flag_crop.png — bottom crop containing the flag
+- flag_text_zoom.png — enhanced crop for easier reading
+- make_spectrogram.py — builds a spectrogram from WAV input
+- crop_flag.py — crops the bottom text from the decoded image
+- enhance_flag_text.py — sharpens and enlarges the crop
 
 ---
 
