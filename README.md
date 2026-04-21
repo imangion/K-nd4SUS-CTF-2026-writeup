@@ -1,6 +1,6 @@
 # Signal Audit — Writeup
 
-**Category:** Misc / Audio  
+**Category:** rev  
 **Challenge:** Signal Audit  
 **Final flag:** `KSUS{s4n1ty_ch3ck_QSL_7373}`
 
