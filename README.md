@@ -36,7 +36,7 @@ That makes it easier to see whether the signal looks structured. The waveform cl
 
 ### Challenge screenshot
 
-![challenge](assets/challenge.png)
+![challenge](https://github.com/imangion/K-nd4SUS-CTF-2026-writeup/blob/main/challenge.png)
 
 ### Spectrogram
 
