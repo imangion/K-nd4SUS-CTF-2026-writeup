@@ -119,15 +119,3 @@ This challenge was mainly about recognizing the clues rather than brute force.
 - crop_flag.py — crops the bottom text from the decoded image
 - enhance_flag_text.py — sharpens and enlarges the crop
 
----
-
-## Reproduction notes
-
-The actual SSTV decode step was done externally, and the repo keeps the resulting evidence images so the full solve path is documented. The included scripts cover the reproducible parts used in the writeup:
-
-1. Analyze the audio with a spectrogram.
-2. Decode the SSTV signal.
-3. Crop and enhance the bottom text line.
-4. Read the flag.
-
-If you want a cleaner version later, this can be rewritten into a shorter CTF-style format or into a more formal GitHub writeup.
